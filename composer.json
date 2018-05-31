@@ -1,5 +1,5 @@
 {
-  "name": "umbrella/api-doc-bundle",
+  "name": "umbrella-anton-kasian/api-doc-bundle",
   "description": "Generates documentation for your REST API from annotations",
   "keywords": ["api", "documentation", "doc", "rest"],
   "type": "symfony-bundle",
@@ -9,6 +9,7 @@
       "name": "Denis Zolotarev"
     }
   ],
+
   "require": {
     "php": ">=5.4|^7.0",
     "nelmio/api-doc-bundle": "^2.0|^3.0"
