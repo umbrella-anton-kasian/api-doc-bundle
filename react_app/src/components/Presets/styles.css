@@ -1,0 +1,14 @@
+.b-presets-btn {
+  text-align: center;
+  font-size: 21px;
+  color: #337ab7;
+  cursor: pointer;
+}
+
+.b-presets-btn:hover {
+  color: #286090;
+}
+
+textarea.form-control.b-presets-textarea {
+  height: 300px
+}

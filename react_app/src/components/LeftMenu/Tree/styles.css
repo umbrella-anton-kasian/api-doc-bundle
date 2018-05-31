@@ -1,0 +1,92 @@
+.b-tree .b-tree-link {
+  cursor: pointer;
+  position: relative;
+  padding: 0 0 0 15px;
+  margin: 0 0 5px;
+}
+
+.b-tree a {
+  display: inline-block;
+  width: 100%;
+}
+
+.b-tree .b-tree-sign {
+  display: inline-block;
+  width: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  font-size: 75%;
+}
+
+.b-tree .b-tree-body {
+  margin: 0 0 5px 20px;
+}
+
+
+.b-tree .b-tree-link-title,
+.b-tree-link-hover {
+  border-radius: 2px;
+  padding: 0 0 0 5px;
+}
+.b-tree .b-tree-link-title .b-tree-link-hover {
+  display: none;
+  position: fixed;
+  z-index: 50;
+  padding-right: 4px;
+}
+
+.b-tree .b-tree-link-title a,
+.b-tree .b-tree-link-title a:hover,
+.b-tree .b-tree-link-title a:active {
+  color: #000;
+}
+
+.b-tree.lvl-1 > .b-tree-link .b-tree-link-title a,
+.b-tree.lvl-1 > .b-tree-link .b-tree-link-title a:hover,
+.b-tree.lvl-1 > .b-tree-link .b-tree-link-title a:active,
+.b-tree.lvl-1 > .b-tree-link .b-tree-sign {
+  left: 8px;
+  color: #fff;
+}
+
+.b-tree.lvl-1 > .b-tree-link {
+  line-height: 37px;
+  text-align: center;
+  font-size: 20px;
+}
+.b-tree.lvl-1 > .b-tree-link {
+  background: #78909C;
+}
+.b-tree.lvl-1 > .b-tree-body {
+  margin-bottom: 20px;
+}
+
+.b-tree.lvl-2 > .b-tree-link .b-tree-link-title:hover .b-tree-link-hover {
+  display: block;
+}
+.b-left-menu.no-title-hover .b-tree.lvl-2 > .b-tree-link .b-tree-link-title:hover .b-tree-link-hover {
+  display: none;
+}
+.b-tree.lvl-2 > .b-tree-link .b-tree-link-title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.b-tree.lvl-2 > .b-tree-link .b-tree-link-title:hover,
+.b-tree.lvl-2 > .b-tree-link .b-tree-link-title .b-tree-link-hover {
+  background-color: #f8f8f8;
+}
+.b-tree.lvl-2 > .b-tree-link .b-tree-link-title .b-tree-link-hover {
+  left: 51px;
+  overflow: visible;
+  width: auto;
+}
+.b-tree.lvl-2 > .b-tree-body {
+  margin-bottom: 15px;
+}
+.b-tree.lvl-2 > .b-tree-link {
+  line-height: 30px;
+  font-size: 18px;
+}

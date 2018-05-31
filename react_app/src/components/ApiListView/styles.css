@@ -1,0 +1,9 @@
+.b-main-content {
+  margin-top: 65px;
+}
+
+@media all and (max-width: 991px) {
+  .b-main-content {
+    margin-top: 0;
+  }
+}

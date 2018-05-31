@@ -1,0 +1,71 @@
+.b-preset-controls {
+  text-align: right;
+}
+
+.b-form-submit {
+  width: 80px;
+}
+
+
+/* form rows heights */
+
+.b-group-title {
+  margin: 5px 0;
+}
+
+.b-edpt-form-row {
+  padding-bottom: 5px;
+}
+
+
+/* field controls wrappers widths */
+
+.b-edpt-form-row:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.b-edpt-form-field {
+  margin: 0 80px 0 0;
+}
+.b-edpt-form-field:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.b-edpt-form-col-btns {
+  width: 80px;
+  float:right;
+}
+
+.b-edpt-form-col-name,
+.b-edpt-form-col-type,
+.b-edpt-form-col-value {
+  float: left;
+}
+
+.b-edpt-form-col-name {
+  width: 45%;
+  margin-right: 1%;
+}
+
+.b-edpt-form-col-type {
+  width: 7%;
+  margin-right: 1%;
+}
+
+.b-edpt-form-col-value {
+  width: 45%;
+  margin-right: 1%;
+}
+
+@media all and (max-width: 991px) {
+  .b-edpt-form-col-name,
+  .b-edpt-form-col-type,
+  .b-edpt-form-col-value {
+    float: none;
+    width: auto;
+    margin-right: 1%;
+  }
+}

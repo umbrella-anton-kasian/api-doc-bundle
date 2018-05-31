@@ -1,0 +1,6 @@
+.label.b-label-deprecated {
+  display: inline-block;
+  margin: 0 5px -5px 0;
+  padding: 5px;
+  background: #d9534f;
+}

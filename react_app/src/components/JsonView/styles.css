@@ -1,0 +1,21 @@
+.b-json-tree-wrapper {
+  border-radius: 2px;
+  margin: 0 0 15px;
+  background-color: #fcf6db;
+  font-size: 13px;
+  line-height: 120%;
+  font-family: Source Code Pro,monospace;
+}
+
+.b-json-tree-wrapper label {
+  font-weight: normal;
+}
+
+.b-json-tree-wrapper > ul {
+  padding: 0px 5px 5px !important;
+  background-color: transparent !important;
+}
+
+.b-json-tree-wrapper .b-json-tree-text {
+  padding: 5px;
+}

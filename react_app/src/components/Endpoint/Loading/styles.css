@@ -1,0 +1,36 @@
+@-moz-keyframes bLoadingBlinking {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes bLoadingBlinking {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes bLoadingBlinking {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+.b-loading {
+  display: inline-block;
+  position: relative;
+}
+.b-loading-inner {
+  position: absolute;
+  display: block;
+  padding: 0px 0 0;
+  top: -17px;
+  left: 0;
+}
+.b-loading-spin {
+  display: block;
+  width: 26px;
+  height: 26px;
+  font-size: 26px;
+  line-height: 26px;
+  vertical-align: middle;
+  -webkit-animation: bLoadingBlinking 2s infinite linear;
+  -moz-animation: bLoadingBlinking 2s infinite linear;
+  -o-animation: bLoadingBlinking 2s infinite linear;
+  animation: bLoadingBlinking 2s infinite linear;
+}

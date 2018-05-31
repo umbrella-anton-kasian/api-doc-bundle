@@ -1,0 +1,61 @@
+.b-left-menu {
+  background-color: #f8f8f8;
+  border: 1px solid #e7e7e7;
+  top: 50px;
+  left: 0;
+  right: 75%;
+  bottom: 0;
+  position: fixed;
+  z-index: 1000;
+}
+.b-left-menu-scroll {
+  overflow-y: scroll;
+  height: 100%;
+}
+.b-left-menu-inner {
+  padding: 15px;
+}
+@media all and (max-width: 991px) {
+  .b-left-menu {
+    position: static;
+    margin: 0 0 15px;
+  }
+  .b-left-menu-scroll {
+    overflow: initial;
+    height: auto;
+  }
+}
+
+.b-menu-item {
+  margin: 0 0 5px 15px;
+  font-size: 16px;
+}
+
+.b-menu-item .b-menu-item-favorite {
+  float: right;
+  width: 20px;
+  font-size: 18px;
+}
+
+.b-menu-item .b-menu-item-link {
+  margin-right: 20px;
+  display: block;
+  width: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.b-menu-item .b-menu-item-link-hover {
+  position: fixed;
+  left: 71px;
+  display: none;
+  width: auto;
+}
+.b-menu-item .b-menu-item-link:hover,
+.b-menu-item .b-menu-item-link:hover .b-menu-item-link-hover {
+  background: #eeeeee;
+  display: block;
+}
+.b-left-menu.no-title-hover .b-menu-item .b-menu-item-link:hover .b-menu-item-link-hover {
+  display: none;
+}

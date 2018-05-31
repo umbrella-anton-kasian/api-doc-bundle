@@ -1,0 +1,11 @@
+{
+  "domains": {
+    "api": {
+      "localhost.jellychip.com": "api.local.jellychip.com:4443"
+    },
+    "stomp": {
+      "localhost.jellychip.com": "master.jellychip.com",
+      "jellychip.com": "rmq.jellychip.com"
+    }
+  }
+}

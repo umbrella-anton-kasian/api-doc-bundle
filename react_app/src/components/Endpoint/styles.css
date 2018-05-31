@@ -1,0 +1,11 @@
+.tabContentAnnotation,
+.tabContentSandbox {
+  padding: 15px 0 0;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+.tabContentAnnotation {
+  padding: 15px 15px 0;
+}

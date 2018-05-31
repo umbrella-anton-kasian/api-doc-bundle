@@ -1,0 +1,11 @@
+.b-customHeader-line {
+  margin-bottom: 4px;
+}
+
+.b-customHeader-line:last-child {
+  margin-bottom: 0px;
+}
+
+.b-customHeader-buttons {
+  width: 105px;
+}

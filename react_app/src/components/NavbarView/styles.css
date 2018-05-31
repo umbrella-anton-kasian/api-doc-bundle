@@ -1,0 +1,70 @@
+.b-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  padding: 10px 0;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+  max-height: 52px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+@media all and (max-width: 991px) {
+  .b-navbar {
+    position: static;
+    margin: 0 0 15px;
+    max-height: none;
+  }
+}
+
+.b-navbar-settings {
+  margin-left: 15px;
+  width: 50px;
+  float: left;
+}
+.b-navbar-presets {
+  margin-right: 15px;
+  width: 50px;
+  float: left;
+}
+.b-navbar-line {
+  margin-left: 130px;
+}
+.b-navbar-line:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.b-navbar-search,
+.b-navbar-headers {
+  float:left;
+  width: 50%;
+  position: relative;
+}
+.b-navbar-headers::after,
+.b-navbar-search::after {
+  content: '';
+  width: 2px;
+  left: -1px;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: #e7e7e7;
+}
+
+@media all and (max-width: 991px) {
+  .b-navbar-headers::after,
+  .b-navbar-search::after {
+    display: none;
+  }
+  .b-navbar-settings,
+  .b-navbar-line,
+  .b-navbar-headers,
+  .b-navbar-search {
+    float: none;
+    width: auto;
+    margin: 0;
+  }
+}

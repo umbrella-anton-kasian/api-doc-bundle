@@ -1,0 +1,101 @@
+.b-fieldset .panel-heading.openable {
+  cursor: pointer;
+}
+
+.b-fieldset .panel-subtitle {
+  float: right;
+}
+@media all and (max-width: 991px) {
+  .b-fieldset .panel-subtitle {
+    float: none;
+  }
+}
+
+.panel-group .b-fieldset > .panel-body {
+  border-top: 1px solid;
+  border-top-color: inherit;
+}
+
+.b-fieldset.color-red {
+  border-color: #e8c6c7;
+}
+.b-fieldset.color-red > .panel-body > .b-endpoint-tabs > .nav-tabs > li > a:hover,
+.b-fieldset.color-red > .panel-heading {
+  background-color: #f5e8e8;
+}
+.b-fieldset.color-red,
+.b-fieldset.color-red > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a,
+.b-fieldset.color-red > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:hover,
+.b-fieldset.color-red > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:focus {
+  background-color: #f7eded;
+}
+
+.b-fieldset.color-green {
+  border-color: #a7e1a1;
+}
+.b-fieldset.color-green > .panel-body > .b-endpoint-tabs > .nav-tabs > li > a:hover,
+.b-fieldset.color-green > .panel-heading {
+  background-color: #d4f7cd;
+}
+.b-fieldset.color-green,
+.b-fieldset.color-green > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a,
+.b-fieldset.color-green > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:hover,
+.b-fieldset.color-green > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:focus {
+  background-color: #ebf7f0;
+}
+
+.b-fieldset.color-blue {
+  border-color: #c3d9ec;
+}
+.b-fieldset.color-blue > .panel-body > .b-endpoint-tabs > .nav-tabs > li > a:hover,
+.b-fieldset.color-blue > .panel-heading {
+  background-color: #e7f0f7;
+}
+.b-fieldset.color-blue,
+.b-fieldset.color-blue > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a,
+.b-fieldset.color-blue > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:hover,
+.b-fieldset.color-blue > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:focus {
+  background-color: #ebf3f9;
+}
+
+.b-fieldset.color-yellow {
+  border-color: #F7DC6F;
+}
+.b-fieldset.color-yellow > .panel-body > .b-endpoint-tabs > .nav-tabs > li > a:hover,
+.b-fieldset.color-yellow > .panel-heading {
+  background-color: #F9E79F;
+}
+.b-fieldset.color-yellow,
+.b-fieldset.color-yellow > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a,
+.b-fieldset.color-yellow > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:hover,
+.b-fieldset.color-yellow > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:focus {
+  background-color: #FEF9E7;
+}
+
+.b-fieldset.color-silver {
+  border-color: #D7DBDD;
+}
+.b-fieldset.color-silver > .panel-body > .b-endpoint-tabs > .nav-tabs > li > a:hover,
+.b-fieldset.color-silver > .panel-heading {
+  background-color: #E5E7E9;
+}
+.b-fieldset.color-silver,
+.b-fieldset.color-silver > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a,
+.b-fieldset.color-silver > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:hover,
+.b-fieldset.color-silver > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:focus {
+  background-color: #F8F9F9;
+}
+
+.b-fieldset.color-gray {
+  border-color: gray;
+}
+.b-fieldset.color-gray > .panel-body > .b-endpoint-tabs > .nav-tabs > li > a:hover,
+.b-fieldset.color-gray > .panel-heading {
+  background-color: lightgray;
+}
+.b-fieldset.color-gray,
+.b-fieldset.color-gray > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a,
+.b-fieldset.color-gray > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:hover,
+.b-fieldset.color-gray > .panel-body > .b-endpoint-tabs > .nav-tabs > li.active > a:focus {
+  background-color: lightgray;
+}

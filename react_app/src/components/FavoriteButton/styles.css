@@ -1,0 +1,15 @@
+.b-favorite-btn {
+  text-align: center;
+  cursor: pointer;
+  color: #cacaca;
+}
+
+.b-favorite-btn:hover,
+.b-favorite-btn.active {
+  color: #ff9900;
+}
+
+.b-favorite-btn.big {
+  font-size: 25px;
+  height: 30px;
+}

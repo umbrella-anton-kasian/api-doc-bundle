@@ -1,0 +1,10 @@
+ApiBundle_api_adm_api_view:
+    path: /adm/api
+    defaults: { _controller: ApiBundle:Api:getView }
+    methods: GET
+
+ApiBundle_api_adm_api_json:
+    path: /adm/api/json
+    defaults: { _controller: ApiBundle:Api:getJson, _format: json }
+    methods: GET
+
