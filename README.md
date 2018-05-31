@@ -1,7 +1,7 @@
 UmbrellaApiDocBundle
 ====================
 
-Another view template for the **NelmioApiDocBundle** that allows you to generate 
+Another view template for the [**NelmioApiDocBundle**](https://github.com/nelmio/NelmioApiDocBundle) that allows you to generate 
 a decent documentation for your APIs.
 
 ## Installation
