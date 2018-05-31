@@ -1,10 +1,9 @@
-ApiBundle_api_adm_api_view:
-    path: /adm/api
-    defaults: { _controller: ApiBundle:Api:getView }
+UmbrellaApiDocBundle_api_adm_api_view:
+    path: /
+    defaults: { _controller: UmbrellaApiDocBundle:Api:getView }
     methods: GET
 
-ApiBundle_api_adm_api_json:
-    path: /adm/api/json
-    defaults: { _controller: ApiBundle:Api:getJson, _format: json }
+UmbrellaApiDocBundle_api_adm_api_json:
+    path: /json
+    defaults: { _controller: UmbrellaApiDocBundle:Api:getJson, _format: json }
     methods: GET
-

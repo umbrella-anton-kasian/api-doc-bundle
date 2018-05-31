@@ -29,8 +29,6 @@ class ApiController extends Controller
      * @return \Symfony\Component\HttpFoundation\Response
      */
     public function getViewAction() {
-        $Response = new Response(file_get_contents(__DIR__ . '/../Resources/public/index.html'));
-        $Response->headers->set('Content-Type', 'text/html');
-        return $Response;
+        return $this->render('UmbrellaApiDocBundle::index.html.twig');
     }
 }

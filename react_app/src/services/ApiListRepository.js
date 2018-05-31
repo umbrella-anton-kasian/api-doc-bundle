@@ -18,9 +18,10 @@ function getBuildJson() {
 }
 
 function getApiJson() {
+  const path = document.querySelector('#root').getAttribute('data-apidoc-endpoint');
   return axios({
     method: 'get',
-    url: `${apiDomain}/adm/api/json`,
+    url: `${apiDomain}${path}`,
   }).then(response => response.data.response);
 }
 

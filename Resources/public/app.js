@@ -46815,9 +46815,10 @@ function getBuildJson() {
 }
 
 function getApiJson() {
+  var path = document.querySelector('#root').getAttribute('data-apidoc-endpoint');
   return (0, _axios2.default)({
     method: 'get',
-    url: apiDomain + '/adm/api/json'
+    url: '' + apiDomain + path
   }).then(function (response) {
     return response.data.response;
   });
@@ -68184,7 +68185,6 @@ var EndpointDocumentation = function (_React$Component) {
     value: function getAnnotation() {
       var ApiDoc = this.props.ApiDoc;
 
-      console.log(ApiDoc);
       var text = ApiDoc.annotation.documentation;
 
       var converter = new _showdown2.default.Converter();
