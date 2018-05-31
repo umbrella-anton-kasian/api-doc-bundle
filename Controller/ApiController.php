@@ -1,6 +1,6 @@
 <?php
 
-namespace Umbrella\ApiBundle\Controller;
+namespace Umbrella\ApiDocBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\JsonResponse;
