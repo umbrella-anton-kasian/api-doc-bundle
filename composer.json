@@ -1,13 +1,13 @@
 {
   "name": "umbrella-anton-kasian/api-doc-bundle",
-  "description": "Generates documentation for your REST API from annotations",
+  "description": "Another view template for the NelmioApiDocBundle that generates documentation for your REST API from annotations",
   "keywords": ["api", "documentation", "doc", "rest"],
   "type": "symfony-bundle",
   "license": "MIT",
   "authors": [
-    {
-      "name": "Denis Zolotarev"
-    }
+    { "name": "Denis Zolotarev" },
+    { "name": "Evgeny Nefedkin" },
+    { "name": "Anton Kasyan" }
   ],
 
   "require": {
